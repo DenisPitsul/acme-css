@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+ol,
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17.6px;
+  line-height: 1.5;
+  text-align: center;
+  color: #fff;
+}
+
+.header {
+  min-height: 450px;
+  background-color: #333333;
+  background-image: url("https://static.pexels.com/photos/248515/pexels-photo-248515.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.content-wrap {
+  max-width: 880px;
+  padding: 0 1.5rem;
+  margin: 0 auto;
+}
+.header-title {
+  font-size: 2rem;
+  padding-top: 100px;
+}
+.header-text {
+  padding: 1rem 0;
+}
+.header-link {
+  display: inline-block;
+  padding: 1rem 2rem;
+  color: inherit;
+  margin: 0.5rem 0;
+  border: 1px solid #666666;
+  background-color: #333333;
+}
+
+.section-a {
+  background-color: #eaeaea;
+  color: #333333;
+  padding: 1.5rem 0 3rem 0;
+}
+.section-a-title {
+  padding-bottom: 1.5rem;
+}
+.section-a-text-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.section-b {
+  background-color: #333333;
+  padding: 2rem 1rem;
+}
+.section-b-list {
+  width: 880px;
+  padding: 0 1.5rem;
+  margin: 0 auto;
+  display: flex;
+  gap: 1.5rem;
+}
+.section-b-item {
+  width: calc(100% / 3 - 1rem);
+}
+.section-b-item-img {
+  width: 100%;
+}
+.section-b-item-content {
+  padding: 1.5rem;
+  background-color: #ffffff;
+}
+.section-b-item-title {
+  color: #333333;
+  font-size: 1.17rem;
+  padding: 1.17rem 0;
+}
+.section-b-item-text {
+  color: #333333;
+  padding: 1rem 0;
+}
+
+.section-c {
+  background-color: #ffffff;
+  padding: 2rem;
+}
+.section-c-title {
+  color: #333333;
+  font-size: 1.5rem;
+  padding: 1.5rem 0;
+}
+.section-c-text {
+  color: #333333;
+  padding: 1rem 0;
+}
+
+.section-d {
+  display: flex;
+}
+.section-d-box {
+  width: 50%;
+  padding: 2rem;
+}
+.section-d-box:first-child {
+  background-color: #2690d4;
+}
+.section-d-box:last-child {
+  background-color: #333333;
+}
+.section-d-title {
+  font-size: 1.5rem;
+  padding: 1.5rem 0;
+}
+.section-d-text {
+  padding: 1rem 0;
+}
+.footer {
+  display: flex;
+  padding: 2rem;
+  background-color: #000000;
+}
+.footer-text {
+  width: 50%;
+}
+.footer-link {
+  color: #2690d4;
+}
